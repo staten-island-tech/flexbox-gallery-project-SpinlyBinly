@@ -9,7 +9,6 @@ html,
     font-family: 'Kanit', sans-serif;
     font-family: 'News Cycle', sans-serif;
     ;
-  
 }
 
 
@@ -20,7 +19,8 @@ html,
     align-items: center;
     text-align: center;
     background-color: rgb(230, 202, 205);
-    
+
+
 }
 
 .card-title {
@@ -30,20 +30,20 @@ html,
 }
 
 .card {
-    height: 50vh;
-    width: 21%;
+height: 450px;
+    width: 20%;
     background-color: rgb(206, 145, 151);
     margin: 2%;
     padding: 2%;
-      box-shadow: 10px 5px 5px rgb(131, 92, 92);
+    box-shadow: 10px 5px 5px rgb(131, 92, 92);
+    overflow: hidden;
 }
 
 .card-img {
-    height: 80%;
+    width: 40%;
 }
 
 h3 {
     font-size: large;
     text-align: center;
 }
-
