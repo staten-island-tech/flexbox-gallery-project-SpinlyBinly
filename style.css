@@ -19,8 +19,6 @@ html,
     align-items: center;
     text-align: center;
     background-color: rgb(230, 202, 205);
-
-
 }
 
 .card-title {
@@ -30,13 +28,14 @@ html,
 }
 
 .card {
-height: 450px;
+    height: 450px;
     width: 20%;
     background-color: rgb(206, 145, 151);
     margin: 2%;
     padding: 2%;
     box-shadow: 10px 5px 5px rgb(131, 92, 92);
     overflow: hidden;
+    transition: all 0.3s;
 }
 
 .card-img {
@@ -46,4 +45,42 @@ height: 450px;
 h3 {
     font-size: large;
     text-align: center;
+}
+
+#I:hover {
+    transform: scale(1.1);
+}
+#II:hover {
+    transform: rotateX(20deg);
+}
+#III:hover {
+    transform: rotate3d(2, 2, 2, 5deg);
+}
+#IV:hover {
+    transform: translate3d(4px, 5%, 1em);
+}
+#V:hover {
+    transform: skewX(10deg);
+}
+
+#VI:hover {
+    transform: rotateZ(10deg);
+}
+#VII:hover {
+transform: scale(1.1);
+}
+#VIII:hover {
+    transform: skewX(10deg);
+}
+#IX:hover {
+    transform: rotateX(20deg);
+}
+#X:hover {
+    transform: skewX(10deg);
+}
+#XI:hover {
+    transform: rotate3d(2, 2, 2, 5deg);
+}
+#XII:hover {
+    transform: translate3d(4px, 5%, 1em);
 }
