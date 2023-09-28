@@ -11,7 +11,22 @@ html,
     ;
 }
 
+.title{
+    animation: fadeIn 2s;
+}
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+h1{
+    text-align: center;
+    font-size: 80px;
+   margin: 50%;
+    transition: all;
+  
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -28,6 +43,7 @@ html,
 }
 
 .card {
+    position: relative;
     height: 450px;
     width: 20%;
     background-color: rgb(206, 145, 151);
@@ -36,6 +52,7 @@ html,
     box-shadow: 10px 5px 5px rgb(131, 92, 92);
     overflow: hidden;
     transition: all 0.3s;
+    transition-duration: 5ms;
 }
 
 .card-img {
@@ -48,39 +65,49 @@ h3 {
 }
 
 #I:hover {
-    transform: scale(1.1);
+    transform: skewX(10deg);
 }
+
 #II:hover {
     transform: rotateX(20deg);
 }
+
 #III:hover {
     transform: rotate3d(2, 2, 2, 5deg);
 }
+
 #IV:hover {
     transform: translate3d(4px, 5%, 1em);
 }
+
 #V:hover {
-    transform: skewX(10deg);
+    transform: scale(1.1);
 }
 
 #VI:hover {
     transform: rotateZ(10deg);
 }
+
 #VII:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 #VIII:hover {
     transform: skewX(10deg);
 }
+
 #IX:hover {
     transform: rotateX(20deg);
 }
+
 #X:hover {
     transform: skewX(10deg);
 }
+
 #XI:hover {
     transform: rotate3d(2, 2, 2, 5deg);
 }
+
 #XII:hover {
     transform: translate3d(4px, 5%, 1em);
 }
