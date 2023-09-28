@@ -1,32 +1,36 @@
 body,
 html,
-* {
+s * {
     font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    background-color: rgb(230, 202, 205);
     font-family: 'Kanit', sans-serif;
     font-family: 'News Cycle', sans-serif;
     ;
 }
 
-.title{
-    animation: fadeIn 2s;
+.title {    
+    text-align: center;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-h1{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
     text-align: center;
     font-size: 80px;
-   margin: 50%;
     transition: all;
-  
 }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -45,7 +49,7 @@ h1{
 .card {
     position: relative;
     height: 450px;
-    width: 20%;
+    width: 15%;
     background-color: rgb(206, 145, 151);
     margin: 2%;
     padding: 2%;
@@ -111,3 +115,4 @@ h3 {
 #XII:hover {
     transform: translate3d(4px, 5%, 1em);
 }
+
