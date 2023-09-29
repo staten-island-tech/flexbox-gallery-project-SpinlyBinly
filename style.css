@@ -13,6 +13,7 @@ s * {
 
 .title {    
     text-align: center;
+    animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
@@ -22,6 +23,19 @@ s * {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu-item {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu-item {
+        width: 100%;
     }
 }
 
