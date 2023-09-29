@@ -26,18 +26,7 @@ s * {
     }
 }
 
-@media screen and (max-width: 900px) {
-    .menu-item {
-        width: 40%;
-    }
-}
 
-
-@media screen and (max-width: 600px) {
-    .menu-item {
-        width: 100%;
-    }
-}
 
 h1 {
     text-align: center;
@@ -133,3 +122,8 @@ h3 {
     transform: translate3d(4px, 5%, 1em);
 }
 
+@media screen and (max-width: 900px) {
+    .card {
+        width: 40%;
+    }
+}
