@@ -44,6 +44,7 @@ h1 {
     margin: 1rem 0;
     font-size: 2.2rem;
     text-align: center;
+    background-color: rgb(206, 145, 151);
 }
 
 .card {
@@ -61,11 +62,13 @@ h1 {
 
 .card-img {
     width: 40%;
+    background-color: rgb(206, 145, 151);
 }
 
 h3 {
     font-size: large;
     text-align: center;
+    background-color: rgb(206, 145, 151);
 }
 
 #I:hover {
