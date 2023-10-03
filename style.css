@@ -41,6 +41,7 @@ h1 {
     align-items: center;
     text-align: center;
     background-color: rgb(230, 202, 205);
+           
 }
 
 .card-title {
@@ -52,7 +53,7 @@ h1 {
 
 .card {
     position: relative;
-    height: 350px;
+   height: 350px;
     width: 15%;
     background-color: rgb(206, 145, 151);
     margin: 2%;
@@ -122,8 +123,21 @@ h3 {
     transform: translate3d(4px, 5%, 1em);
 }
 
-@media screen and (max-width: 900px) {
+
+
+
+@media screen and (max-width:768px)  {
     .card {
         width: 40%;
+    }
+}
+@media screen and (max-width:600px)  {
+    .card {
+        width: 40%;
+    }
+} 
+@media screen and (max-width:390px)  {
+    .card {
+        width: 90%;
     }
 }
